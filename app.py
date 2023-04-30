@@ -7,7 +7,7 @@ import Dashauth
 
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP], title='OSLabs')
-
+server = app.server
 auth = dash_auth.BasicAuth(
     app,
     Dashauth.VALID_USERNAME_PASSWORD_PAIRS
