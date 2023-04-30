@@ -65,7 +65,7 @@ def update_output(n_clicks, state1, state2, state3):
 
         import sms
 
-        text = f'Dear {state1}, your payment of {state3}Kshs to OSLabs has been processed successfully.'
+        text = f'Dear {state1}, your payment of {state3} Kshs to OSLabs has been processed successfully.'
 
         response = sms.send_sms(int(state2), text)
 
@@ -74,7 +74,7 @@ def update_output(n_clicks, state1, state2, state3):
         else:
             return 'Invalid entry'
     else:
-        return "Please Fill in the Fields correctly"
+        return "Please Re-check the Phone number and try again!"
 
 
 if __name__ == "__main__":
