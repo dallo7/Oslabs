@@ -51,8 +51,8 @@ app.layout = dbc.Container([
             )
         ], style={'backgroundColor': 'F0E68C'}
     )
-], style={'backgroundColor': 'F0E68C', 'marginTop': '10px', 'marginRight': '100px', 'marginBottom': '50px',
-          'marginLeft': '90px', "border": "2px LightGreen"})
+], style={'backgroundColor': 'F0E68C', 'marginTop': '20px', 'marginRight': '20px', 'marginBottom': '40px',
+          'marginLeft': '20px', "border": "2px LightGreen"})
 
 
 @app.callback(Output('response', 'children'),
