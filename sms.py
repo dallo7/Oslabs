@@ -4,7 +4,7 @@ def send_sms(phonenumber: int, sms):
     url = 'https://mysms.celcomafrica.com/api/services/sendsms/'
 
     data = {'partnerID': '435',
-            'apikey': '6d999665d4abb2e3293714d06b403ff4',
+            'apikey': '1c37d5b44c805abf79800477e8af91d9',
             'mobile': phonenumber,
             'message': sms,
             'shortcode': 'OSL',
